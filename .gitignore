@@ -1,0 +1,7 @@
+target/
+.env
+secrets.properties
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
