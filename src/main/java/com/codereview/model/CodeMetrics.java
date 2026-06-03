@@ -16,7 +16,13 @@ public class CodeMetrics{
     private int count;
     private boolean hasMain;
 
-    public CodeMetrics(){}
+    public CodeMetrics(){
+        lMethods = new ArrayList<>();
+        comMethods = new ArrayList<>();
+        badMethods = new ArrayList<>();
+        badFields = new ArrayList<>();
+        emptyCatches = new ArrayList<>();
+    }
 
     public String getClassName() {
         return className;
