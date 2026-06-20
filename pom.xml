@@ -34,7 +34,7 @@
         <!-- LangChain4j OpenAI -->
         <dependency>
             <groupId>dev.langchain4j</groupId>
-            <artifactId>langchain4j-open-ai</artifactId>
+            <artifactId>langchain4j-google-ai-gemini</artifactId>
             <version>0.36.2</version>
         </dependency>
 
