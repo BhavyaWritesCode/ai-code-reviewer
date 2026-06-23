@@ -12,7 +12,7 @@ public class LangChainService {
 
         this.model = GoogleAiGeminiChatModel.builder()
             .apiKey(apiKey)
-            .modelName("gemini-3.5-flash")
+            .modelName("gemini-2.5-flash")
             .temperature(0.3)
             .build();
     }
