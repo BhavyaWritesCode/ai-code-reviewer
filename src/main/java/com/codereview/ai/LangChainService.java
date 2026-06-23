@@ -31,6 +31,10 @@ public class LangChainService {
         return model.generate(prompt);
     }
 
+    public String refactorCode(String code, String bugRep, String secRep, String qualRep) {
+        String prompt = String.format(PromptTemp.REFACTOR_PROMPT, bugRep, secRep, qualRep, code);
+        return model.generate(prompt);
+    }
 
 }
 

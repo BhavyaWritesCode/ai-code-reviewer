@@ -64,4 +64,31 @@ public class PromptTemp {
         Code to review:
         %s
         """;
+    public static final String REFACTOR_PROMPT = """
+        You are an expert Java developer specializing in code refactoring and mentorship.
+        
+        You are given a piece of Java code along with bug, security, and quality reports
+        identifying issues in it. Fix every issue mentioned across all 3 reports.
+        
+        Respond in this exact format:
+        
+        REFACTORED_CODE:
+        <the complete corrected Java code>
+        
+        EXPLANATIONS:
+        - <explain what was fixed and why, tied to a specific issue from the reports>
+        - <explain what was fixed and why, tied to a specific issue from the reports>
+        
+        Bug report:
+        %s
+        
+        Security report:
+        %s
+        
+        Quality report:
+        %s
+        
+        Original code:
+        %s
+        """;
 }
